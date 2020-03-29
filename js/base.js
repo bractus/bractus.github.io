@@ -1,3 +1,9 @@
-$(document).ready(function(){
-    $("#navbar-frame").load("navbar.html");
-});
+$(function() {
+        
+    $('.list-group-item').on('click', function() {
+      $('.glyphicon', this)
+        .toggleClass('glyphicon-chevron-right')
+        .toggleClass('glyphicon-chevron-down');
+    });
+  
+  });
