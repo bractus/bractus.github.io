@@ -35,4 +35,27 @@
   .list-group-item .glyphicon {
     margin-right: 5px;
   }
+
+  .fg-dark {
+    color: #313131;
+  }
   
+.bg-um{
+  background-color: #525252;
+}
+
+.bg-dois{
+  background-color: #414141;
+}
+
+.bg-tres{
+  background-color: #313131;
+}
+
+.bg-quatro{
+  background-color: #ca3e47;
+}
+
+.fg-white {
+  color: #fff;
+}
