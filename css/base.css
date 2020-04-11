@@ -17,3 +17,19 @@
 .jumbotron h1{
   color: #ffffff;
 }
+
+#projects h1{
+  text-align: center;
+}
+
+#resume h1 {
+  text-align: center;
+}
+
+.container {
+  align-items: center;
+}
+
+#resume ul {
+  list-style-type:none;
+}
