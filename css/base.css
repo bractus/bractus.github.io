@@ -1,5 +1,5 @@
 .icones a i{
-  padding-right: 8px;
+  padding-right: 15px;
 }
 
 .navbar {
@@ -10,7 +10,6 @@
   margin: 10px;
 }
 
-#bokeh {
-  max-width:15%;
-  height:auto;
+.jumbotron {
+  text-align: center;
 }
