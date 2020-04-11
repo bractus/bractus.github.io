@@ -33,3 +33,12 @@
 #resume ul {
   list-style-type:none;
 }
+
+.carousel-item img {
+  max-width: 60%;
+  height: auto;
+}
+
+#carouselExampleIndicators {
+  align-items: center;
+}
