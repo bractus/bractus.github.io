@@ -14,10 +14,18 @@
   text-align: center;
 }
 
-.jumbotron h1{
+.jumbotron h3{
   color: #ffffff;
 }
 
+.jumbotron img {
+  max-width: 10%;
+  height: auto;
+}
+
+.jumbotron nav {
+  margin-top: -35px;
+}
 #projects h1{
   text-align: center;
 }
@@ -41,4 +49,16 @@
 
 #carouselExampleIndicators {
   align-items: center;
+}
+
+.fa-node-js{
+  color: #42f554;
+}
+
+.fa-react{
+  color: #8319e0;
+}
+
+.fa-python {
+  color: #1619a1;
 }
