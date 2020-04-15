@@ -1,64 +1,71 @@
-.icones a i{
-  padding-right: 15px;
-}
-
-.navbar {
-  margin-bottom: 35px;
-}
-
-.card {
-  margin: 10px;
-}
-
-.jumbotron {
-  text-align: center;
-}
-
-.jumbotron h3{
-  color: #ffffff;
-}
-
-.jumbotron img {
-  max-width: 10%;
-  height: auto;
-}
-
-.jumbotron nav {
-  margin-top: -35px;
-}
-#projects h1{
-  text-align: center;
-}
-
-#resume h1 {
-  text-align: center;
-}
-
 .container {
-  align-items: center;
+    align-items: center;
+    text-align: center;
 }
 
-#resume ul {
-  list-style-type:none;
+.navbar h3 {
+    color: #ffffff;
+    padding: 10px;
 }
 
-.carousel-item img {
-  max-width: 60%;
-  height: auto;
+.navbar span i {
+    margin: 4px;
 }
 
-#carouselExampleIndicators {
-  align-items: center;
+.row .card {
+    border: none;
 }
 
-.fa-node-js{
-  color: #42f554;
+#projects {
+    background-color: #ffffff;
 }
 
-.fa-react{
-  color: #8319e0;
+#projects .card {
+    background-color: #ffffff;
+    margin-left:30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
-.fa-python {
-  color: #1619a1;
+#resume {
+    padding: 50px;
+}
+
+#resume .card{
+    margin-left:30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.fas, .fab {
+    margin: 30px;
+}
+
+footer {
+    margin: 50px;
+}
+
+#about {
+    margin: 70px;
+}
+
+#about h1 {
+    padding-bottom: 30px;
+}
+
+#resume div h1, #projects div h1, #about div h1 {
+    padding-top:50px;
+}
+
+#resume div  div:hover {
+    background-color: teal;
+    color: #ffffff;
+}
+
+#resume .fas:hover, #resume .fab:hover {
+    color: #ffffff;
+}
+
+#resume div h3 {
+    color: darkgrey;
 }
