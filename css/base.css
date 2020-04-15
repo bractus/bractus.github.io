@@ -4,8 +4,17 @@
 }
 
 .navbar h3 {
-    color: #ffffff;
     padding: 10px;
+    font-family: 'Lexend Giga', sans-serif;
+}
+
+.navbar h3 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar h3 a:hover {
+    color: red;
 }
 
 .navbar span i {
@@ -50,12 +59,21 @@ footer {
     margin: 50px;
 }
 
-#about {
-    margin: 70px;
+#about div {
+    padding: 50px;
+}
+#about h1 {
+    margin-bottom: 40px;
 }
 
-#about h1 {
-    padding-bottom: 30px;
+#projects div  div:hover {
+    background-color: teal;
+    color: #ffffff;
+}
+
+#about div:hover {
+    background-color: teal;
+    color: #ffffff;
 }
 
 #resume div h1, #projects div h1, #about div h1 {
