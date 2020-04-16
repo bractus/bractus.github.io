@@ -82,3 +82,7 @@
 #resume div h3, #projects div div h6 {
     color: darkgrey;
 }
+
+footer {
+    padding-top: 30px;
+}
