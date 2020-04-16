@@ -11,6 +11,12 @@
     font-family: 'Lexend Giga', sans-serif;
 }
 
+/* .navbar div ul li a{
+    text-align: right;
+    align-items: right;
+    align-content: right; */
+/* } */
+
 .navbar h3 a {
     color: #ffffff;
     text-decoration: none;
@@ -20,9 +26,9 @@
     color: #D9230F;
 }
 
-.navbar span i {
+/* .navbar span i {
     margin: 5px;
-}
+} */
 
 .row .card {
     border: none;
@@ -49,7 +55,7 @@
     color: #ffffff;
 } */
 
-.fas, .fab {
+.card-body .fas,.card-body .fab {
     margin: 30px;
 }
 
@@ -85,4 +91,8 @@
 
 footer {
     padding-top: 30px;
+}
+
+footer .fab {
+    margin:5px;
 }
