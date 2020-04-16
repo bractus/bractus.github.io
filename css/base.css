@@ -55,7 +55,7 @@
     color: #ffffff;
 } */
 
-.card-body .fas,.card-body .fab {
+.card .card-body .fas, .card .card-body .fab {
     margin: 30px;
 }
 
@@ -93,6 +93,6 @@ footer {
     padding-top: 30px;
 }
 
-footer .fab {
+footer .fab, footer .fas {
     margin:5px;
 }
