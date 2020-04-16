@@ -1,14 +1,13 @@
 .container {
-    align-items: center;
-    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
     font-family: 'Roboto', sans-serif;
+    text-align: center; 
 }
 
-.navbar h3 {
-    padding: 10px;
-}
-
-.lexend {
+.lexend{
     font-family: 'Lexend Giga', sans-serif;
 }
 
@@ -22,7 +21,7 @@
 }
 
 .navbar span i {
-    margin: 4px;
+    margin: 5px;
 }
 
 .row .card {
@@ -34,43 +33,35 @@
 }
 
 #projects .card {
-    background-color: #ffffff;
-    margin-left:30px;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin: 50px 10px;
 }
 
 #resume {
-    padding: 50px;
+    padding-top: 50px;
 }
 
 #resume .card{
-    margin-left:30px;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin:50px 0px;
 }
 
-#resume-download {
+/* #resume-download {
     background-color: gray;
     color: #ffffff;
-}
+} */
 
 .fas, .fab {
     margin: 30px;
 }
 
-footer {
-    margin: 50px;
+#about div {
+    padding-bottom: 40px;
 }
 
-#about div {
-    padding: 50px;
-}
 #about h1 {
     margin-bottom: 40px;
 }
 
-#projects div  div:hover {
+#projects div div:hover, #resume div  div:hover {
     background-color: teal;
     color: #ffffff;
 }
@@ -84,15 +75,10 @@ footer {
     padding-top:50px;
 }
 
-#resume div  div:hover {
-    background-color: teal;
-    color: #ffffff;
-}
-
 #resume .fas:hover, #resume .fab:hover {
     color: #ffffff;
 }
 
-#resume div h3 {
+#resume div h3, #projects div div h6 {
     color: darkgrey;
 }
