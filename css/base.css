@@ -3,13 +3,14 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     text-align: center; 
 }
-
+/* 
 .lexend{
     font-family: 'Lexend Giga', sans-serif;
-}
+} */
 
 /* .navbar div ul li a{
     text-align: right;
@@ -17,6 +18,9 @@
     align-content: right; */
 /* } */
 
+.carousel-item img {
+    height: 500px;
+}
 .navbar h3 a {
     color: #ffffff;
     text-decoration: none;
