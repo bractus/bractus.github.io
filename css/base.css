@@ -2,8 +2,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.space {
+    word-spacing: -20px;
+}
+
 .logo1 {
     font-weight: 300;
+    letter-spacing: -2px;
 }
 
 .logo2 {
