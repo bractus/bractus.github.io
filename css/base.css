@@ -47,7 +47,8 @@
 .carousel-caption {
     font-size: large;
     font-weight: 400;
-    background: rgba(0, 0, 0, 0.5)
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0 5px;
 }
 
 /* .carousel-caption {
