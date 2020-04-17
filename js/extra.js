@@ -23,4 +23,4 @@ $(window).on('resize', function (){
   $item.height($wHeight);
 });
 
-$item.eq(0).addClass('active');
+// $item.eq(0).addClass('active');
