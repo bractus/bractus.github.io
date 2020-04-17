@@ -1,102 +1,25 @@
 .container {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Montserrat', sans-serif;
-    text-align: center; 
 }
-/* 
-.lexend{
-    font-family: 'Lexend Giga', sans-serif;
-} */
 
-/* .navbar div ul li a{
-    text-align: right;
-    align-items: right;
-    align-content: right; */
-/* } */
+.logo1 {
+    font-weight: 300;
+}
+
+.logo2 {
+    font-weight: 800;
+}
 
 .carousel-item img {
     height: 500px;
 }
+
 .navbar h3 a {
-    color: #ffffff;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
 .navbar h3 a:hover {
     color: #D9230F;
-}
-
-/* .navbar span i {
-    margin: 5px;
-} */
-
-.row .card {
-    border: none;
-}
-
-#projects {
-    background-color: #ffffff;
-}
-
-#projects .card {
-    margin: 50px 10px;
-}
-
-#resume {
-    padding-top: 50px;
-}
-
-#resume .card{
-    margin:50px 0px;
-}
-
-/* #resume-download {
-    background-color: gray;
-    color: #ffffff;
-} */
-
-.card .card-body .fas, .card .card-body .fab {
-    margin: 30px;
-}
-
-#about div {
-    padding-bottom: 40px;
-}
-
-#about h1 {
-    margin-bottom: 40px;
-}
-
-#projects div div:hover, #resume div  div:hover {
-    background-color: teal;
-    color: #ffffff;
-}
-
-#about div:hover {
-    background-color: teal;
-    color: #ffffff;
-}
-
-#resume div h1, #projects div h1, #about div h1 {
-    padding-top:50px;
-}
-
-#resume .fas:hover, #resume .fab:hover {
-    color: #ffffff;
-}
-
-#resume div h3, #projects div div h6 {
-    color: darkgrey;
-}
-
-footer {
-    padding-top: 30px;
-}
-
-footer .fab, footer .fas {
-    margin:5px;
+    text-decoration: none;
 }
