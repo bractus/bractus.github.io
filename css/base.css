@@ -1,4 +1,8 @@
 
+* {
+    word-wrap: break-word;
+}
+
 a:hover {
     color: #D9230F;
     text-decoration: none;
