@@ -1,16 +1,21 @@
+
+a:hover {
+    color: #D9230F;
+    text-decoration: none;
+}
+
 .container {
     font-family: 'Montserrat', sans-serif;
-    
 }
 
 .space {
     word-spacing: -20px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .logo1 {
     font-weight: 300;
-    letter-spacing: -2px;
+    letter-spacing: 0px;
     color: #D9230F;
 }
 
@@ -24,10 +29,6 @@
     text-decoration: none;
 }
 
-.navbar h3 a:hover {
-    color: #D9230F;
-    text-decoration: none;
-}
 
 .navbar{
     position:absolute;
