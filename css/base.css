@@ -4,15 +4,18 @@
 
 .space {
     word-spacing: -20px;
+    padding: 20px;
 }
 
 .logo1 {
     font-weight: 300;
     letter-spacing: -2px;
+    color: #D9230F;
 }
 
 .logo2 {
     font-weight: 800;
+    color: #D9230F;
 }
 
 .carousel-item img {
@@ -27,4 +30,15 @@
 .navbar h3 a:hover {
     color: #D9230F;
     text-decoration: none;
+}
+
+.navbar-trans {
+    background: transparent; 
+}
+
+.navbar{
+    position:absolute;
+    width:100%;
+    z-index:10;
+    max-width:100%;
 }
