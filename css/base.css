@@ -42,8 +42,8 @@
 
 .carousel-caption {
     position: relative;
-    left: -200px;
-    top: -750px;
+    left: -180px;
+    top: 180px;
     width: 600px;
     margin: auto; 
 }
@@ -53,4 +53,3 @@
     background-position: center;
     background-repeat: no-repeat;
   }
-  
