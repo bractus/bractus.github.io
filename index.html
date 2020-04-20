@@ -9,40 +9,49 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/mdb.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/base.css">
 
 </head>
 
 <body>
-    <div class="container-100" id="home">
+    <div class="container-fluid" id="home">
 
-        <div class="row">
+        <div class="row w-100 h-100">
+
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+                <h3 class="d-none d-md-block space"><a href="#home">
+                        <span class="logo1">CAIRO</span>
+                        <span class="logo2">ROCHA</span>
+                    </a></h3>
+                <h3 class="d-none d-block d-md-none space"><a href="#home">
+                        <span class="logo1">C</span>
+                        <span class="logo2">R</span>
+                    </a></h3>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
             <div id="carouselExampleIndicators" class="carousel slide col-12" data-ride="carousel">
-
-                <nav class="navbar navbar-expand-lg navbar-transparent fixed-top p-3 p-md-5">
-
-                    <h2 class="d-none d-md-block space"><a href="#home">
-                            <span class="logo1">CAIRO</span>
-                            <span class="logo2">ROCHA</span>
-                        </a></h2>
-                    <h1 class="d-none d-block d-md-none space"><a href="#home">
-                            <span class="logo1">C</span>
-                            <span class="logo2">R</span>
-                        </a></h1>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
-                        aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="navbar-nav ml-auto d-inline-block" id="links">
-                            <a class="pl-3" href="#projects">Projects</a>
-                            <a class="pl-3" href="#about">About</a>
-                            <a class="pl-3" href="#contact">Contact</a>
-                    </div>
-                </nav>
 
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -103,11 +112,99 @@
 
             </div>
 
-            <div class="row p-md-5 mx-auto" id="projects">
-                <div class="col-12 text-center">
-                    <h1>Projects</h1>
+
+            <!-- <div class="row mx-auto p-5">
+                <div class="col-12 text-center ">
+                    <h1 class="pb-5">Projects</h1>
                 </div>
-                <div class="col-12 col-md-4 p-5 p-md-5">
+
+                <div class="cuadro_intro_hover col-12 col-md-4">
+                    <p>
+                        <img src="images/pic4-1.jpg" class="img-fluid" alt="">
+                    </p>
+                    <div class="caption">
+                        <div class="blur"></div>
+                        <div class="caption-text">
+                            <h3 class="p-4">
+                                NN Notebooks</h3>
+                            <p>Loren ipsum dolor si amet ipsum dolor si amet ipsum dolor...</p>
+                            <a class=" btn btn-default" href="http://trovacamporella.com"><span
+                                    class="glyphicon glyphicon-plus"> INFO</span></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="cuadro_intro_hover col-12 col-md-4" style="background-color:#cccccc;">
+                    <p style="text-align:center; margin-top:20px;">
+                        <img src="images/pic5-1.jpg" class="img-fluid" alt="">
+                    </p>
+                    <div class="caption">
+                        <div class="blur"></div>
+                        <div class="caption-text">
+                            <h3 style="border-top:2px solid white; border-bottom:2px solid white; padding:10px;">
+                                Moses</h3>
+                            <p>Loren ipsum dolor si amet ipsum dolor si amet ipsum dolor...</p>
+                            <a class=" btn btn-default" href="http://trovacamporella.com"><span
+                                    class="glyphicon glyphicon-plus"> INFO</span></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="cuadro_intro_hover col-12 col-md-4" style="background-color:#cccccc;">
+                    <p style="text-align:center; margin-top:20px;">
+                        <img src="images/pic6-1.jpg" class="img-fluid" alt="">
+                    </p>
+                    <div class="caption">
+                        <div class="blur"></div>
+                        <div class="caption-text">
+                            <h3 style="border-top:2px solid white; border-bottom:2px solid white; padding:10px;">
+                                ML Notebooks</h3>
+                            <p>Loren ipsum dolor si amet ipsum dolor si amet ipsum dolor...</p>
+                            <a class=" btn btn-default" href="http://trovacamporella.com"><span
+                                    class="glyphicon glyphicon-plus"> INFO</span></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div> -->
+            <div class="row mx-auto p-5" id="projects">
+                <div class="col-12 text-center ">
+                    <h1 class="py-5">Projects</h1>
+                </div>
+
+                <div class="col-4 mx-auto d-block p-0 view overlay">
+                    <img src="images/pic4-1.jpg" class="img-projects img-fluid " alt="...">
+                    <div class="mask flex-center rgba-red-strong">
+                        <h3>
+                            NN Notebooks
+                        </h3><br />
+                        <p>Test text example 1 2 3 testing</p><br />
+                        <button type="button" class="btn btn-danger">Github</button>
+                    </div>
+                </div>
+
+                <div class="col-4 mx-auto d-block p-0  view overlay">
+                    <img src="images/pic5-1.jpg" class="img-projects img-fluid " alt="...">
+                    <div class="mask flex-center rgba-red-strong">
+                        <h3>Moses</h3><br />
+                        <p>Test text example 1 2 3 testing</p><br />
+                        <button type="button" class="btn btn-danger">Github</button>
+                    </div>
+                </div>
+
+                <div class="col-4 mx-auto d-block p-0  view overlay">
+                    <img src="images/pic6-1.jpg" class="img-projects img-fluid " alt="...">
+                    <div class="mask flex-center rgba-red-strong">
+                        <h3>ML Notebooks</h3><br />
+                        <p>Test text example 1 2 3 testing</p><br />
+                        <button type="button" class="btn btn-danger">Github</button>
+                    </div>
+                </div>
+            <!-- <div class="col-12 col-md-4 p-5 p-md-5">
                     <div class="card" style="width: 18rem;">
                         <img src="images/pic4.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -139,33 +236,33 @@
                             <a href="#" class="btn btn-danger">Go somewhere</a>
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="row mx-auto p-5 p-md-5" id="about">
-                <div class="col-12 col-md-6 text-center mx-auto">
-                    <h1>About</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit eveniet, maxime laborum voluptatum
-                        nesciunt fugiat magnam possimus architecto reprehenderit quaerat in officiis odit beatae velit
-                        quae veniam ducimus? Esse, quis?</p>
-                </div>
-            </div>
+                </div>-->
         </div>
 
-        <footer class="page-footer mb-5 pb-5">
-            <div class="container-fluid text-center" id="contact">
-                <a href="mailto:cairoaorocha@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x m-2"></i></a>
-                <a href="https://github.com/bractus" target="_blank"><i class="fab fa-github fa-2x m-2"></i></a>
-                <a href="https://www.linkedin.com/in/cairo-rocha" target="_blank"><i
-                        class="fab fa-linkedin fa-2x m-2"></i></a>
-                <a href="https://www.kaggle.com/cairo43227"><i class="fab fa-kaggle fa-2x m-2"></i></a>
+        <div class="row mx-auto p-5 p-md-5" id="about">
+            <div class="col-12 col-md-6 text-center mx-auto">
+                <h1 class="py-5">About</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit eveniet, maxime laborum voluptatum
+                    nesciunt fugiat magnam possimus architecto reprehenderit quaerat in officiis odit beatae velit
+                    quae veniam ducimus? Esse, quis?</p>
             </div>
+        </div>
+    </div>
 
-            <!-- Copyright -->
-            <div class="footer-copyright text-center py-3">© 2020 Cairo Rocha
-            </div>
-            <!-- Copyright -->
-        </footer>
+    <footer class="page-footer mb-5 pb-5">
+        <div class="container-fluid text-center" id="contact">
+            <a href="mailto:cairoaorocha@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x m-2"></i></a>
+            <a href="https://github.com/bractus" target="_blank"><i class="fab fa-github fa-2x m-2"></i></a>
+            <a href="https://www.linkedin.com/in/cairo-rocha" target="_blank"><i
+                    class="fab fa-linkedin fa-2x m-2"></i></a>
+            <a href="https://www.kaggle.com/cairo43227"><i class="fab fa-kaggle fa-2x m-2"></i></a>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Cairo Rocha
+        </div>
+        <!-- Copyright -->
+    </footer>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -174,8 +271,9 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/extra.js"></script>
+        <script src="js/mdb.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/extra.js"></script>
 </body>
 
 </html>
