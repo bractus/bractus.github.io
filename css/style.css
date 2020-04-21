@@ -1,0 +1,55 @@
+/* Required for full background image */
+html,
+body,
+header,
+.view {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #9b9b9b !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #9b9b9b !important;
+  }
+}
+
+.rgba-gradient {
+  background: -moz-linear-gradient(45deg, rgba(70, 70, 70, 0.6), rgba(207, 207, 207, 0.69) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(70, 70, 70, 0.6), rgba(207, 207, 207, 0.69) 100%);
+  background: linear-gradient(to 45deg,  rgba(70, 70, 70, 0.6), rgba(207, 207, 207, 0.69) 100%);
+}
+
+.logo1 {
+    font-weight: 300;
+    letter-spacing: 0px;
+    /* color: rgb(105, 20, 10); */
+    color:#FFFFFF;
+}
+
+.logo2 {
+    font-weight: 800;
+    /* color: rgb(105, 20, 10); */
+    color:#FFFFFF;
+}
+
+.space {
+    word-spacing: -5em;
+    /* padding: 10px; */
+}
