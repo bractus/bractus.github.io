@@ -77,3 +77,11 @@ header,
     /* IE6-9 */
   }
 
+  .img-tam{
+    width: 100%;
+    /* min-width: 300px; */
+    /* height: auto; */
+    min-height: 600px;
+  }
+  
+
