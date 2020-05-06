@@ -9,3 +9,11 @@
 .m-10 {
     margin: 30px;
 }
+
+.mt-10 {
+    margin-bottom: 30px;
+}
+
+.p-infinite {
+    padding: 100px;
+}

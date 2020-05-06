@@ -15,21 +15,23 @@
     <div class="container is-fluid">
 
         <!-- Navbar -->
-        <nav class="navbar is-dark is-transparent ">
+        <nav class="navbar is-dark is-fixed-top">
             <div class="navbar-brand">
-                <a class="navbar-item" href="https://bulma.io">
+                <a class="navbar-item" href="#">
                     <img src="img/logo.png" alt="Cairo Rocha" width="150" height="40" class="ml-10">
                 </a>
-                <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarExampleTransparentExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
             </div>
 
             <div id="navbarExampleTransparentExample" class="navbar-menu">
                 <div class="navbar-start">
-                    <a class="navbar-item" href="projects.html">
+                    <a class="navbar-item has-text-weight-bold" href="index.html">
                         Projects
                     </a>
                     <a class="navbar-item" href="about.html">
@@ -53,75 +55,50 @@
         <section class="section columns">
             <div class="card column m-10">
                 <header class="card-header">
-                    <p class="card-header-title has-text-centered">
-                        <i class="fas fa-brain"></i> Neural Networks
-                    </p>
-                    <a href="#" class="card-header-icon" aria-label="more options">
-                        <span class="icon">
-                            <i class="fas fa-angle-down" aria-hidden="true"></i>
-                        </span>
-                    </a>
+                    <h3 class="card-header-title has-text-centered">
+                        <i class="fas fa-brain ml-10"></i> Neural Networks Notebooks
+                    </h3>
                 </header>
                 <div class="card-content">
-                    <div class="content">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-                        <a href="#">@bulmaio</a>. <a href="#">#css</a> <a href="#">#responsive</a>
-                        <br>
-                        <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                    <div class="content has-text-justified">
+                        <strong>Jupyter Notebooks</strong> containing implementations of some <strong>Artificial Neural Networks</strong> algorithms.
                     </div>
                 </div>
                 <footer class="card-footer">
-                    <a href="#" class="card-footer-item"><i class="fab fa-github"></i> Github</a>
+                    <a href="https://github.com/bractus/neuralnetworks" 
+                    target="_blank"  class="card-footer-item"><i class="fab fa-github"></i> Github</a>
                 </footer>
             </div>
             <div class="card column m-10">
                 <header class="card-header">
-                    <p class="card-header-title">
-                        Component
-                    </p>
-                    <a href="#" class="card-header-icon" aria-label="more options">
-                        <span class="icon">
-                            <i class="fas fa-angle-down" aria-hidden="true"></i>
-                        </span>
-                    </a>
+                    <h3 class="card-header-title has-text-centered">
+                        <i class="fas fa-database ml-10"></i> MOSES (MOdel SErialization System)
+                    </h3>
                 </header>
                 <div class="card-content">
-                    <div class="content">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-                        <a href="#">@bulmaio</a>. <a href="#">#css</a> <a href="#">#responsive</a>
-                        <br>
-                        <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                    <div class="content has-text-justified">
+                        <strong>Python</strong> (Flask) implementation of a server that save <strong>machine learning models</strong> and predict values for given data.
                     </div>
                 </div>
                 <footer class="card-footer">
-                    <a href="#" class="card-footer-item">Save</a>
-                    <a href="#" class="card-footer-item">Edit</a>
-                    <a href="#" class="card-footer-item">Delete</a>
+                    <a href="https://github.com/bractus/moses" 
+                    target="_blank" class="card-footer-item is-danger"><i class="fab fa-github"></i> Github</a>
                 </footer>
             </div>
             <div class="card column m-10">
                 <header class="card-header">
-                    <p class="card-header-title">
-                        Component
-                    </p>
-                    <a href="#" class="card-header-icon" aria-label="more options">
-                        <span class="icon">
-                            <i class="fas fa-angle-down" aria-hidden="true"></i>
-                        </span>
-                    </a>
+                    <h3 class="card-header-title has-text-centered">
+                        <i class="fas fa-robot ml-10"></i> Machine Learning Notebooks
+                    </h3>
                 </header>
                 <div class="card-content">
-                    <div class="content">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-                        <a href="#">@bulmaio</a>. <a href="#">#css</a> <a href="#">#responsive</a>
-                        <br>
-                        <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                    <div class="content has-text-justified">
+                        <strong>Jupyter Notebooks</strong> containing implementations of some <strong>Machine Learning</strong> algorithms.
                     </div>
                 </div>
                 <footer class="card-footer">
-                    <a href="#" class="card-footer-item">Save</a>
-                    <a href="#" class="card-footer-item">Edit</a>
-                    <a href="#" class="card-footer-item">Delete</a>
+                    <a href="https://github.com/bractus/machinelearning" 
+                    target="_blank" class="card-footer-item"><i class="fab fa-github"></i> Github</a>
                 </footer>
             </div>
         </section>
@@ -129,8 +106,21 @@
 
     </div>
 
+    <!--Footer-->
+    <footer class="footer is-marginless is-paddingless">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p>
+                    &copy Cairo Rocha 2020
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!--/Footer-->
+
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="js/extras.js"></script>
 </body>
 
 </html>
