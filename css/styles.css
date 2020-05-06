@@ -17,3 +17,11 @@
 .p-infinite {
     padding: 100px;
 }
+
+.bg-img {
+    background: var('img/pic3.jpg') center center no-repeat;
+}
+
+.has-text-red{
+    color: red;
+}

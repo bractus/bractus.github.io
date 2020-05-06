@@ -12,111 +12,123 @@
 </head>
 
 <body>
-    <div class="container is-fluid">
-
-        <!-- Navbar -->
-        <nav class="navbar is-dark is-fixed-top">
-            <div class="navbar-brand">
-                <a class="navbar-item" href="#">
-                    <img src="img/logo.png" alt="Cairo Rocha" width="150" height="40" class="ml-10">
-                </a>
-
-                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-                    data-target="navbarExampleTransparentExample">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
-            </div>
-
-            <div id="navbarExampleTransparentExample" class="navbar-menu">
-                <div class="navbar-start">
-                    <a class="navbar-item has-text-weight-bold" href="index.html">
-                        Projects
+    <section class="hero is-dark is-bold is-fullheight-with-navbar">
+        <div class="hero-head">
+            <nav class="navbar is-dark is-bold is-fixed-top">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="#">
+                        <img src="img/logo.png" alt="Cairo Rocha" width="150" height="40" class="ml-10">
                     </a>
-                    <a class="navbar-item" href="about.html">
-                        About
+
+                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                        data-target="navbarExampleTransparentExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
                     </a>
                 </div>
 
-                <div class="navbar-end">
-                    <ul class="navbar-item is-horizontal">
-                        <li><i class="fas fa-envelope ml-10"></i></li>
-                        <li><i class="fab fa-github ml-10"></i></li>
-                        <li><i class="fab fa-linkedin ml-10"></i></li>
-                        <li><i class="fab fa-kaggle ml-10 mr-10"></i></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- /Navbar -->
+                <div id="navbarExampleTransparentExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item has-text-weight-bold" href="index.html">
+                            Projects
+                        </a>
+                        <a class="navbar-item" href="about.html">
+                            About
+                        </a>
+                    </div>
 
-        <!-- Main -->
-        <section class="section columns">
-            <div class="card column m-10">
-                <header class="card-header">
-                    <h3 class="card-header-title has-text-centered">
-                        <i class="fas fa-brain ml-10"></i> Neural Networks Notebooks
-                    </h3>
-                </header>
-                <div class="card-content">
-                    <div class="content has-text-justified">
-                        <strong>Jupyter Notebooks</strong> containing implementations of some <strong>Artificial Neural Networks</strong> algorithms.
+                    <div class="navbar-end">
+                        <ul class="navbar-item is-horizontal">
+                            <li><a href="mailto:cairoaorocha@gmail.com" target="_blank"><i
+                                        class="fas fa-envelope ml-10 has-text-red"></i></a>
+                            </li>
+                            <li><a href="http://www.github.com/bractus" target="_blank" rel="noopener noreferrer"><i
+                                        class="fab fa-github ml-10 has-text-red"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/cairo-rocha/" target="_blank"
+                                    rel="noopener noreferrer"><i class="fab fa-linkedin ml-10 has-text-red"></i></a>
+                            </li>
+                            <li><a href="https://www.kaggle.com/cairo43227" target="_blank" rel="noopener noreferrer"><i
+                                        class="fab fa-kaggle ml-10 mr-10 has-text-red"></i></a></li>
+                        </ul>
                     </div>
                 </div>
-                <footer class="card-footer">
-                    <a href="https://github.com/bractus/neuralnetworks" 
-                    target="_blank"  class="card-footer-item"><i class="fab fa-github"></i> Github</a>
-                </footer>
-            </div>
-            <div class="card column m-10">
-                <header class="card-header">
-                    <h3 class="card-header-title has-text-centered">
-                        <i class="fas fa-database ml-10"></i> MOSES (MOdel SErialization System)
-                    </h3>
-                </header>
-                <div class="card-content">
-                    <div class="content has-text-justified">
-                        <strong>Python</strong> (Flask) implementation of a server that save <strong>machine learning models</strong> and predict values for given data.
+            </nav>
+            <!-- /Navbar -->
+        </div>
+        <div class="hero-body">
+            <div class="container">
+                <!-- Main -->
+                <section class="section columns">
+                    <div class="card column m-10">
+                        <header class="card-header">
+                            <h3 class="card-header-title has-text-centered">
+                                <i class="fas fa-brain ml-10"></i> Neural Networks Notebooks
+                            </h3>
+                        </header>
+                        <div class="card-content">
+                            <div class="content has-text-justified">
+                                <strong>Jupyter Notebooks</strong> containing implementations of some <strong>Artificial
+                                    Neural
+                                    Networks</strong> algorithms.
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="https://github.com/bractus/neuralnetworks" target="_blank"
+                                class="card-footer-item"><i class="fab fa-github"></i> Github</a>
+                        </footer>
                     </div>
-                </div>
-                <footer class="card-footer">
-                    <a href="https://github.com/bractus/moses" 
-                    target="_blank" class="card-footer-item is-danger"><i class="fab fa-github"></i> Github</a>
-                </footer>
-            </div>
-            <div class="card column m-10">
-                <header class="card-header">
-                    <h3 class="card-header-title has-text-centered">
-                        <i class="fas fa-robot ml-10"></i> Machine Learning Notebooks
-                    </h3>
-                </header>
-                <div class="card-content">
-                    <div class="content has-text-justified">
-                        <strong>Jupyter Notebooks</strong> containing implementations of some <strong>Machine Learning</strong> algorithms.
+                    <div class="card column m-10">
+                        <header class="card-header">
+                            <h3 class="card-header-title has-text-centered">
+                                <i class="fas fa-database ml-10"></i> MOSES (MOdel SErialization System)
+                            </h3>
+                        </header>
+                        <div class="card-content">
+                            <div class="content has-text-justified">
+                                <strong>Python</strong> (Flask) implementation of a server that save <strong>machine
+                                    learning
+                                    models</strong> and predict values for given data.
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="https://github.com/bractus/moses" target="_blank"
+                                class="card-footer-item is-danger"><i class="fab fa-github"></i> Github</a>
+                        </footer>
                     </div>
-                </div>
-                <footer class="card-footer">
-                    <a href="https://github.com/bractus/machinelearning" 
-                    target="_blank" class="card-footer-item"><i class="fab fa-github"></i> Github</a>
-                </footer>
-            </div>
-        </section>
-        <!-- /Main -->
-
-    </div>
-
-    <!--Footer-->
-    <footer class="footer is-marginless is-paddingless">
-        <div class="container">
-            <div class="content has-text-centered">
-                <p>
-                    &copy Cairo Rocha 2020
-                </p>
+                    <div class="card column m-10">
+                        <header class="card-header">
+                            <h3 class="card-header-title has-text-centered">
+                                <i class="fas fa-robot ml-10"></i> Machine Learning Notebooks
+                            </h3>
+                        </header>
+                        <div class="card-content">
+                            <div class="content has-text-justified">
+                                <strong>Jupyter Notebooks</strong> containing implementations of some <strong>Machine
+                                    Learning</strong> algorithms.
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="https://github.com/bractus/machinelearning" target="_blank"
+                                class="card-footer-item"><i class="fab fa-github"></i> Github</a>
+                        </footer>
+                    </div>
+                </section>
+                <!-- /Main -->
             </div>
         </div>
-    </footer>
-    <!--/Footer-->
+        <div class="hero-foot">
+            <!--Footer-->
+                <div class="container">
+                    <div class="content has-text-centered">
+                        <p class="has-text-white">
+                            &copy Cairo Rocha 2020
+                        </p>
+                    </div>
+                </div>
+            <!--/Footer-->
+        </div>
+    </section>
 
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
