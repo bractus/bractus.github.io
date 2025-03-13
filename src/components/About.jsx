@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from 'react';
 import { Database, Server, LineChart, Brain } from 'lucide-react';
 
 const About = () => {
-  const sectionRef = useRef<HTMLDivElement>(null);
+  const sectionRef = useRef(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(

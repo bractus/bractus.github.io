@@ -3,12 +3,7 @@ import React from 'react';
 import { Linkedin, Github, FileText, Mail } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
-interface SocialLinksProps {
-  className?: string;
-  iconSize?: number;
-}
-
-const SocialLinks = ({ className, iconSize = 20 }: SocialLinksProps) => {
+const SocialLinks = ({ className, iconSize = 20 }) => {
   const socialLinks = [
     {
       name: 'LinkedIn',

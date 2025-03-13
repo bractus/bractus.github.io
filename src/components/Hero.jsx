@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from 'react';
 import { ArrowDown } from 'lucide-react';
 
 const Hero = () => {
-  const sectionRef = useRef<HTMLDivElement>(null);
+  const sectionRef = useRef(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
