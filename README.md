@@ -1,69 +1,70 @@
-# Welcome to your Lovable project
+# Cairo Rocha - Portfolio
 
-## Project info
+Portfolio pessoal de Cairo Rocha, Engenheiro de Dados especializado em Big Data, Analytics e soluções cloud.
 
-**URL**: https://lovable.dev/projects/3d23ddf3-0269-45cd-811b-febf463867b8
+## 🚀 Deploy no GitHub Pages
 
-## How can I edit this code?
+Este projeto está configurado para deploy automático no GitHub Pages. Para configurar:
 
-There are several ways of editing your application.
+1. **Fork ou clone este repositório**
+2. **Vá até as configurações do repositório** (Settings)
+3. **Na seção Pages**, configure a fonte como "GitHub Actions"
+4. **Faça push para a branch main** - o deploy será automático
 
-**Use Lovable**
+O site será acessível em: `https://[seu-usuario].github.io/[nome-do-repositorio]`
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3d23ddf3-0269-45cd-811b-febf463867b8) and start prompting.
+## 🛠️ Tecnologias Utilizadas
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend**: React, TypeScript, Tailwind CSS
+- **UI Components**: Shadcn/ui, Radix UI
+- **Build Tool**: Vite
+- **Deploy**: GitHub Pages com GitHub Actions
 
-**Use your preferred IDE**
+## 📦 Instalação Local
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+```bash
+# Clone o repositório
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Instale as dependências
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Execute em modo desenvolvimento
 npm run dev
+
+# Build para produção
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+## 📁 Estrutura do Projeto
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+src/
+├── components/          # Componentes React
+│   ├── ui/             # Componentes UI reutilizáveis
+│   ├── Hero.tsx        # Seção principal
+│   ├── About.tsx       # Sobre mim
+│   ├── Technologies.tsx # Tecnologias
+│   ├── Projects.tsx    # Portfólio
+│   └── Contact.tsx     # Contato
+├── pages/              # Páginas
+└── styles/             # Estilos globais
+```
 
-**Use GitHub Codespaces**
+## 🔧 Personalização
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Para personalizar o portfolio:
 
-## What technologies are used for this project?
+1. **Conteúdo**: Edite os componentes em `src/components/`
+2. **Estilos**: Modifique `src/index.css` e `tailwind.config.ts`
+3. **Imagens**: Adicione na pasta `public/` ou `src/assets/`
 
-This project is built with .
+## 📞 Contato
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Email**: cairo.rocha@email.com
+- **LinkedIn**: [Cairo Rocha](https://linkedin.com/in/cairo-rocha)
+- **GitHub**: [cairo-rocha](https://github.com/cairo-rocha)
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/3d23ddf3-0269-45cd-811b-febf463867b8) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Desenvolvido com ❤️ por Cairo Rocha
